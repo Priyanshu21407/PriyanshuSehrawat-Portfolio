@@ -1,0 +1,102 @@
+div{
+    height: 100%;
+    width: 100%;
+    animation: fadeIn 0.4s;
+.hi{
+    text-align: center;
+    margin-left: -80%;
+    left: 120px;
+    font-family:fantasy;
+    font-size: 50px;
+    color: rgb(222, 194, 9);
+    font-weight: 400;
+    
+    &:hover{
+        animation: rubberBand 1s;
+    }
+}
+    .name{
+        text-align: center;
+        margin-left: -65%;
+        font-family:fantasy;
+        font-size: 50px;
+        color: rgb(136, 190, 241);
+        font-weight: 400;
+        padding: 10px;
+        margin-top:-50px;
+        
+        &:hover{
+            animation: rubberBand 1s;
+        }
+    }
+    .h3-first{
+        text-align: center;
+        margin-left: -40%;
+        font-family:fantasy;
+        font-size: 30px;
+        color: rgb(102, 219, 133);
+        font-weight: 300;
+        padding: 10px;
+        margin-top:-20px;
+        &:hover{
+            animation: rubberBand 1s;
+        }
+        
+    }
+    .h3-second{
+        text-align: center;
+        margin-left: -70%;
+        font-family:fantasy;
+        font-size: 30px;
+        color: rgb(255, 118, 118);
+        font-weight: 300;
+        padding: 10px;
+        margin-top:-20px;
+        &:hover{
+            animation: rubberBand 1s;
+        }
+        
+        
+    }
+    .h4-first{
+        text-align: center;
+        margin-left: -55%;
+        font-family:fantasy;
+        font-size: 20px;
+        color: rgb(255, 198, 118);
+        font-weight: 300;
+        padding: 10px;
+        margin-top:-20px;
+        &:hover{
+            animation: rubberBand 1s;
+        }
+    }
+.contact-link{
+    color: yellow;
+    text-align: center;
+    font-family:monospace;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 85%;
+    position: absolute;
+    bottom: 2%;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 10px 8px;
+    letter-spacing: 5px;
+    &:hover{
+        background-color: rgb(67, 119, 179);
+        color: white;
+        transition: all 0.1s;
+        
+    }
+}
+.rain{
+    display: block;
+    height: 50%;
+    position: absolute;
+    margin-left: 60%;
+    top:10%;
+    animation: rubberBand 2s;
+}
+}

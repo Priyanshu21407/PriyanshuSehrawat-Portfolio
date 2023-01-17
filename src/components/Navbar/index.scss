@@ -1,0 +1,58 @@
+.navbar{
+    background-color: rgb(54, 54, 54);
+    overflow: hidden;
+    height: 90px;
+    //width: auto;
+    display:flex;
+    border: 1px solid rgb(244, 237, 142);
+    border-radius: 10px;
+  nav{
+    display: block;
+    text-align: right;
+    position: relative;
+    height: auto;
+    width: 100%;
+    outline: 10px;
+    font-size: 25px;
+    a{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-decoration: none; 
+     padding: 30px;
+     line-height: 55px;
+     height: 51px;
+     position: relative;
+     color: #F1F7B5;
+
+    
+     &:hover{
+      color:rgb(21, 18, 18);
+      font-style: italic;
+      //opacity:0.75;
+      transition: all 0.15s ease-in;
+      background:#F1F7B5;
+      border-radius: 5px;
+     }
+    }
+    
+   
+  }
+  .home-link{
+    display: block;
+    padding: 8px;
+    width: 100px;
+    height: auto;
+    img{
+      position: relative;
+      display:block;
+      margin: 8px auto;
+      width: 50%;
+      height: auto;
+      &:hover{
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
+      transition: all 0.15s ease-in;
+      }
+    }
+  }
+    
+}
